@@ -4,6 +4,7 @@ ketik 'virtualenv env' untuk membuat virtualenv
 lalu ketik env\Scripts\activate
 install semua modul yang ada pada requirements.txt kecuali virtualenv
 pelajari dari file app.py kemudian main.py kemudian jinja.py
+sebelum menyentuh materi ke database CRUD buat satu database pada mysql masing2 dengan nama terserah kemudian connect sesuai nama database tersebut untuk membuat table
 file models.py digunakan untuk pemodelan tabel pada db secara statis 
 untuk running di terminal :
     uvicorn nama-file:variable-running --reload
@@ -11,3 +12,10 @@ untuk running di terminal :
 misalnya:
     uvicorn jinja:app --reload 
     app adalah variable objek dari FastApi()
+
+referensi:
+    https://youtu.be/tplFMhr1HPI
+    https://docs.sqlalchemy.org/en/14/dialects/mysql.html?highlight=insert#sqlalchemy.dialects.mysql.insert
+    https://docs.sqlalchemy.org/en/14/core/engines.html
+    https://docs.sqlalchemy.org/en/14/core/connections.html
+    https://fastapi.tiangolo.com/

@@ -33,7 +33,7 @@ async def delete_data(id:int):
 #otomatis create table pada database
 register_tortoise(
     app,
-    db_url='mysql://root:@localhost/testing',
+    db_url='mysql://root:@localhost/testing', #testing adalah nama database
     modules={'models':['models']},
     generate_schemas=True,
     add_exception_handlers=True

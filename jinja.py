@@ -9,7 +9,7 @@ import databases
 from models import RegisterIn, Register
 
 app = FastAPI()
-db_url = 'mysql://root:@localhost/testing'
+db_url = 'mysql://root:@localhost/testing' #testing adalah nama database
 
 metadata = sqlalchemy.MetaData()
 
