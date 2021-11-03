@@ -1,0 +1,13 @@
+install modul virtualenv pada terminal
+buat folder untuk tutorial anda
+ketik 'virtualenv env' untuk membuat virtualenv 
+lalu ketik env\Scripts\activate
+install semua modul yang ada pada requirements.txt kecuali virtualenv
+pelajari dari file app.py kemudian main.py kemudian jinja.py
+file models.py digunakan untuk pemodelan tabel pada db secara statis 
+untuk running di terminal :
+    uvicorn nama-file:variable-running --reload
+
+misalnya:
+    uvicorn jinja:app --reload 
+    app adalah variable objek dari FastApi()

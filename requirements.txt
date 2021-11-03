@@ -1,0 +1,6 @@
+fastapi
+aiomysql
+tortoise
+virtualenv
+uvicorn
+jinja2 uvicorn 
