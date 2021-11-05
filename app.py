@@ -21,12 +21,12 @@ async def getting():
         'salute' : 'haiii...'
     }
 
-@app.post('/post/')
+@app.post('/post')
 async def posting(todo:Todo):
     store_database.append(todo)
     return store_database
 
-@app.get('/todo', response_model=List[Todo])
+@app.get('/post', response_model=List[Todo])
 async def get_all_todo():
     return store_database
 

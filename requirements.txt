@@ -4,3 +4,4 @@ tortoise
 virtualenv
 uvicorn
 jinja2 uvicorn 
+requests
