@@ -10,7 +10,7 @@ client = TestClient(app)
 #     assert response.json() == {'message': 'halo world'}
 
 data = {
-    "name": "rhmwt",
+    "name": "shaun",
     "due_date": "jumat",
     "description": "cantik"
 }
